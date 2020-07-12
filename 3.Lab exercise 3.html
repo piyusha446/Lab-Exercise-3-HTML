@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Registration form</title>
+</head>
+<body>
+		<form>
+		<font face="Times New Roman" size="5"> <center> Registration Form </font>		
+		<table width="700px" height="100px" border="2px" cellpadding="5px" cellspacing="5px" bgcolor=#C0C0C0>
+		<tr>
+			<th height="34">Enter your first name</th>
+			<td><input type="text" name="fullname" placeholder="Enter your first name"> <br>
+		</tr>
+
+		<tr>
+			<th height="34">Enter your last name</th>
+			<td><input type="text" name="lastname" placeholder="Enter your last name"> <br>
+		</tr>
+
+		<tr>
+			<th height="34">Enter your password</th>
+			<td> <input type="password" name="password" placeholder="Enter your password"> <br>
+		</tr>
+
+		<tr>
+			<th height="34">Re-enter your password</th>
+			<td> <input type="password" name="password" placeholder="Re-enter your password"> <br>
+		</tr>
+
+		<tr>
+			<th height="34">Enter your email </th>
+			<td> <input type="email" name="email" placeholder="Enter your email"> <br>
+		</tr>
+
+		<tr>
+			<th height="34">Enter your mobile no </th>
+			<td><input type="text" name="mobile" maxlength="10" placeholder="Enter your mobile no"> <br>
+		</tr>
+
+		<tr>
+			<th height="34"> Enter your address </th>
+			<td> <textarea name="taMessage" rows="10" cols="30" > </textarea> <br><br> 
+		</tr>
+
+		<tr>
+			<th height="34"> Select your Gender</th>
+			<td> <input type="radio" name="gender" value="Male"> Male 
+			<input type="radio" name="gender" value="Female"> Female 
+		</tr>
+
+		<tr>
+			<th height="34"> Select your Hobbies</th>
+			<td> <input type="checkbox" name="chkMovies" value="Movies"> Movies 
+			<input type="checkbox" name="chkTravelling" value="Traveling">Travelling
+			<input type="checkbox" name="chkReading" value="Reading"> Reading
+		</tr>
+
+		<tr>
+			<th height="34"> Select your DOB</th>
+			<td> <input type="date" name="date1"> </td>
+		</tr> 
+
+		<tr>
+			<th height="34" label> Select your Country </label>
+			<td> <select name="Select your Country">
+			<option value=""> Select your country </option>
+			<option value="Nepal"> Nepal</option>
+			<option value="India"> India</option>
+			<option value="China"> China</option>
+		</select> <br> <br>
+		</tr>
+
+		<tr>
+			<th height="34"> Upload your pic </th>
+			<td><input type="hidden" name="hf1" value="hfvalue">
+			<input type="file" name="file1"> <br> 
+		</tr>
+
+		<tr>
+		<th height="39" colspan="2">
+			<button id="Save My data"> Save My data </button> 
+	    	<button id="Reset Data"> Reset Data </button> 
+		</tr>
+		</table>
+	</form>
+</body>
+</html>
